@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="14,0,50,0" name="Accounting.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Company_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="Accounting.behavior.Company_BehaviorDescriptor" />
+    </file>
+    <file name="Date_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.Date_BehaviorDescriptor" />
+    </file>
+    <file name="EntitiesGroup_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="Accounting.behavior.EntitiesGroup_BehaviorDescriptor" />
+    </file>
+    <file name="Entity_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="Accounting.behavior.Entity_BehaviorDescriptor" />
+    </file>
+    <file name="InvoiceLine_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.InvoiceLine_BehaviorDescriptor" />
+    </file>
+    <file name="Invoice_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.Invoice_BehaviorDescriptor" />
+    </file>
+    <file name="InvoicesGroup_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="Accounting.behavior.InvoicesGroup_BehaviorDescriptor" />
+    </file>
+    <file name="Money_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.Money_BehaviorDescriptor" />
+    </file>
+    <file name="Percentage_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.Percentage_BehaviorDescriptor" />
+    </file>
+    <file name="VATIdentifier_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="Accounting.behavior.VATIdentifier_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:a09e7370-8341-4ea8-adf9-08872211c62b(Accounting.behavior)/4989694486378479535">
+    <file name="Invoice_Behavior.java">
+      <node id="4989694486378479535" at="14,85,15,79" concept="5" />
+      <node id="4989694486378479535" at="17,88,18,82" concept="5" />
+      <node id="4989694486378479535" at="20,79,21,73" concept="5" />
+      <node id="4989694486378479535" at="14,0,17,0" concept="7" trace="call_totalAmount_4989694486378979358#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="17,0,20,0" concept="7" trace="call_totalVATAmount_4989694486378992251#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="20,0,23,0" concept="7" trace="call_total_4989694486378995234#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <scope id="4989694486378479535" at="14,85,15,79" />
+      <scope id="4989694486378479535" at="17,88,18,82" />
+      <scope id="4989694486378479535" at="20,79,21,73" />
+      <scope id="4989694486378479535" at="14,0,17,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="17,0,20,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="20,0,23,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <unit id="4989694486378479535" at="12,0,24,0" name="Accounting.behavior.Invoice_Behavior" />
+    </file>
+    <file name="Invoice__BehaviorDescriptor.java">
+      <node id="4989694486378479535" at="29,0,30,0" concept="6" trace="CONCEPT" />
+      <node id="4989694486378479535" at="30,0,31,0" concept="6" trace="REGISTRY" />
+      <node id="4989694486378479535" at="32,0,33,0" concept="6" trace="totalAmount_id4kYXbbAm20u" />
+      <node id="4989694486378479535" at="33,0,34,0" concept="6" trace="totalVATAmount_id4kYXbbAm59V" />
+      <node id="4989694486378479535" at="34,0,35,0" concept="6" trace="total_id4kYXbbAm5Sy" />
+      <node id="4989694486378479535" at="36,0,37,0" concept="6" trace="BH_METHODS" />
+      <node id="4989694486378479542" at="38,63,39,343" concept="1" />
+      <node id="4989694486378989872" at="44,57,45,246" concept="5" />
+      <node id="4989694486378992262" at="51,57,52,89" concept="5" />
+      <node id="4989694486378995245" at="58,57,59,85" concept="5" />
+      <node id="4989694486378479535" at="64,45,65,20" concept="8" />
+      <node id="4989694486378479535" at="69,114,70,21" concept="1" />
+      <node id="4989694486378479535" at="74,114,75,49" concept="4" />
+      <node id="4989694486378479535" at="76,26,77,56" concept="10" />
+      <node id="4989694486378479535" at="80,13,81,66" concept="5" />
+      <node id="4989694486378479535" at="82,13,83,69" concept="5" />
+      <node id="4989694486378479535" at="84,13,85,60" concept="5" />
+      <node id="4989694486378479535" at="86,14,87,58" concept="10" />
+      <node id="4989694486378479535" at="92,128,93,49" concept="4" />
+      <node id="4989694486378479535" at="94,26,95,56" concept="10" />
+      <node id="4989694486378479535" at="98,14,99,58" concept="10" />
+      <node id="4989694486378479535" at="105,48,106,22" concept="5" />
+      <node id="4989694486378479535" at="111,40,112,19" concept="5" />
+      <node id="4989694486378479535" at="38,0,41,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4989694486378988430" at="44,0,47,0" concept="3" trace="combine#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/math/BigDecimal;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378992260" at="51,0,54,0" concept="3" trace="combine#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/math/BigDecimal;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378995243" at="58,0,61,0" concept="3" trace="combine#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/math/BigDecimal;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="64,0,67,0" concept="0" trace="Invoice__BehaviorDescriptor#()V" />
+      <node id="4989694486378479535" at="75,49,78,5" concept="2" />
+      <node id="4989694486378479535" at="93,49,96,5" concept="2" />
+      <node id="4989694486378479535" at="68,0,72,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="4989694486378479535" at="96,5,100,5" concept="9" />
+      <node id="4989694486378979757" at="42,88,47,7" concept="5" />
+      <node id="4989694486378992254" at="49,91,54,7" concept="5" />
+      <node id="4989694486378995237" at="56,82,61,7" concept="5" />
+      <node id="4989694486378479535" at="103,0,108,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="4989694486378479535" at="109,0,114,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4989694486378479535" at="42,0,49,0" concept="7" trace="totalAmount_id4kYXbbAm20u#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="49,0,56,0" concept="7" trace="totalVATAmount_id4kYXbbAm59V#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="56,0,63,0" concept="7" trace="total_id4kYXbbAm5Sy#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378479535" at="78,5,88,5" concept="9" />
+      <node id="4989694486378479535" at="91,0,102,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="4989694486378479535" at="73,0,90,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="4989694486378479535" at="38,63,39,343" />
+      <scope id="4989694486378988431" at="44,57,45,246" />
+      <scope id="4989694486378992261" at="51,57,52,89" />
+      <scope id="4989694486378995244" at="58,57,59,85" />
+      <scope id="4989694486378479535" at="64,45,65,20" />
+      <scope id="4989694486378479535" at="69,114,70,21" />
+      <scope id="4989694486378479535" at="76,26,77,56" />
+      <scope id="4989694486378479535" at="80,13,81,66" />
+      <scope id="4989694486378479535" at="82,13,83,69" />
+      <scope id="4989694486378479535" at="84,13,85,60" />
+      <scope id="4989694486378479535" at="86,14,87,58" />
+      <scope id="4989694486378479535" at="94,26,95,56" />
+      <scope id="4989694486378479535" at="98,14,99,58" />
+      <scope id="4989694486378479535" at="105,48,106,22" />
+      <scope id="4989694486378479535" at="111,40,112,19" />
+      <scope id="4989694486378479535" at="38,0,41,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378988430" at="44,0,47,0">
+        <var name="it" id="4989694486378988430" />
+        <var name="s" id="4989694486378988430" />
+      </scope>
+      <scope id="4989694486378992260" at="51,0,54,0">
+        <var name="it" id="4989694486378992260" />
+        <var name="s" id="4989694486378992260" />
+      </scope>
+      <scope id="4989694486378995243" at="58,0,61,0">
+        <var name="it" id="4989694486378995243" />
+        <var name="s" id="4989694486378995243" />
+      </scope>
+      <scope id="4989694486378479535" at="64,0,67,0" />
+      <scope id="4989694486378479535" at="68,0,72,0">
+        <var name="constructor" id="4989694486378479535" />
+        <var name="node" id="4989694486378479535" />
+        <var name="parameters" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378979360" at="42,88,47,7" />
+      <scope id="4989694486378992253" at="49,91,54,7" />
+      <scope id="4989694486378995236" at="56,82,61,7" />
+      <scope id="4989694486378479535" at="103,0,108,0" />
+      <scope id="4989694486378479535" at="109,0,114,0" />
+      <scope id="4989694486378479535" at="42,0,49,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="49,0,56,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="56,0,63,0">
+        <var name="__thisNode__" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="92,128,100,5">
+        <var name="methodIndex" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="91,0,102,0">
+        <var name="concept" id="4989694486378479535" />
+        <var name="method" id="4989694486378479535" />
+        <var name="parameters" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="74,114,88,5">
+        <var name="methodIndex" id="4989694486378479535" />
+      </scope>
+      <scope id="4989694486378479535" at="73,0,90,0">
+        <var name="method" id="4989694486378479535" />
+        <var name="node" id="4989694486378479535" />
+        <var name="parameters" id="4989694486378479535" />
+      </scope>
+      <unit id="4989694486378988430" at="43,239,47,5" name="Accounting.behavior.Invoice__BehaviorDescriptor$1" />
+      <unit id="4989694486378992260" at="50,239,54,5" name="Accounting.behavior.Invoice__BehaviorDescriptor$2" />
+      <unit id="4989694486378995243" at="57,239,61,5" name="Accounting.behavior.Invoice__BehaviorDescriptor$3" />
+      <unit id="4989694486378479535" at="28,0,115,0" name="Accounting.behavior.Invoice__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:a09e7370-8341-4ea8-adf9-08872211c62b(Accounting.behavior)/4989694486378804284">
+    <file name="InvoiceLine_Behavior.java">
+      <node id="4989694486378804284" at="14,83,15,81" concept="5" />
+      <node id="4989694486378804284" at="17,79,18,77" concept="5" />
+      <node id="4989694486378804284" at="14,0,17,0" concept="7" trace="call_vatAmount_4989694486378804287#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378804284" at="17,0,20,0" concept="7" trace="call_total_4989694486378837742#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <scope id="4989694486378804284" at="14,83,15,81" />
+      <scope id="4989694486378804284" at="17,79,18,77" />
+      <scope id="4989694486378804284" at="14,0,17,0">
+        <var name="__thisNode__" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="17,0,20,0">
+        <var name="__thisNode__" id="4989694486378804284" />
+      </scope>
+      <unit id="4989694486378804284" at="12,0,21,0" name="Accounting.behavior.InvoiceLine_Behavior" />
+    </file>
+    <file name="InvoiceLine__BehaviorDescriptor.java">
+      <node id="4989694486378804284" at="27,0,28,0" concept="6" trace="CONCEPT" />
+      <node id="4989694486378804284" at="28,0,29,0" concept="6" trace="REGISTRY" />
+      <node id="4989694486378804284" at="30,0,31,0" concept="6" trace="vatAmount_id4kYXbbAlngZ" />
+      <node id="4989694486378804284" at="31,0,32,0" concept="6" trace="total_id4kYXbbAlvrI" />
+      <node id="4989694486378804284" at="33,0,34,0" concept="6" trace="BH_METHODS" />
+      <node id="4989694486378805160" at="38,86,39,405" concept="4" />
+      <node id="4989694486378806848" at="39,405,40,257" concept="5" />
+      <node id="4989694486378838499" at="42,82,43,327" concept="5" />
+      <node id="4989694486378804284" at="46,49,47,20" concept="8" />
+      <node id="4989694486378804284" at="51,114,52,21" concept="1" />
+      <node id="4989694486378804284" at="56,114,57,49" concept="4" />
+      <node id="4989694486378804284" at="58,26,59,56" concept="10" />
+      <node id="4989694486378804284" at="62,13,63,64" concept="5" />
+      <node id="4989694486378804284" at="64,13,65,60" concept="5" />
+      <node id="4989694486378804284" at="66,14,67,58" concept="10" />
+      <node id="4989694486378804284" at="72,128,73,49" concept="4" />
+      <node id="4989694486378804284" at="74,26,75,56" concept="10" />
+      <node id="4989694486378804284" at="78,14,79,58" concept="10" />
+      <node id="4989694486378804284" at="85,48,86,22" concept="5" />
+      <node id="4989694486378804284" at="91,40,92,19" concept="5" />
+      <node id="4989694486378804284" at="35,0,37,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4989694486378804284" at="42,0,45,0" concept="7" trace="total_id4kYXbbAlvrI#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378804284" at="46,0,49,0" concept="0" trace="InvoiceLine__BehaviorDescriptor#()V" />
+      <node id="4989694486378804284" at="57,49,60,5" concept="2" />
+      <node id="4989694486378804284" at="73,49,76,5" concept="2" />
+      <node id="4989694486378804284" at="38,0,42,0" concept="7" trace="vatAmount_id4kYXbbAlngZ#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378804284" at="50,0,54,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="4989694486378804284" at="76,5,80,5" concept="9" />
+      <node id="4989694486378804284" at="83,0,88,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="4989694486378804284" at="89,0,94,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4989694486378804284" at="60,5,68,5" concept="9" />
+      <node id="4989694486378804284" at="71,0,82,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="4989694486378804284" at="55,0,70,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="4989694486378804284" at="35,63,35,63" />
+      <scope id="4989694486378837744" at="42,82,43,327" />
+      <scope id="4989694486378804284" at="46,49,47,20" />
+      <scope id="4989694486378804284" at="51,114,52,21" />
+      <scope id="4989694486378804284" at="58,26,59,56" />
+      <scope id="4989694486378804284" at="62,13,63,64" />
+      <scope id="4989694486378804284" at="64,13,65,60" />
+      <scope id="4989694486378804284" at="66,14,67,58" />
+      <scope id="4989694486378804284" at="74,26,75,56" />
+      <scope id="4989694486378804284" at="78,14,79,58" />
+      <scope id="4989694486378804284" at="85,48,86,22" />
+      <scope id="4989694486378804284" at="91,40,92,19" />
+      <scope id="4989694486378804284" at="35,0,37,0">
+        <var name="__thisNode__" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804289" at="38,86,40,257">
+        <var name="p" id="4989694486378805163" />
+      </scope>
+      <scope id="4989694486378804284" at="42,0,45,0">
+        <var name="__thisNode__" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="46,0,49,0" />
+      <scope id="4989694486378804284" at="38,0,42,0">
+        <var name="__thisNode__" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="50,0,54,0">
+        <var name="constructor" id="4989694486378804284" />
+        <var name="node" id="4989694486378804284" />
+        <var name="parameters" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="83,0,88,0" />
+      <scope id="4989694486378804284" at="89,0,94,0" />
+      <scope id="4989694486378804284" at="72,128,80,5">
+        <var name="methodIndex" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="71,0,82,0">
+        <var name="concept" id="4989694486378804284" />
+        <var name="method" id="4989694486378804284" />
+        <var name="parameters" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="56,114,68,5">
+        <var name="methodIndex" id="4989694486378804284" />
+      </scope>
+      <scope id="4989694486378804284" at="55,0,70,0">
+        <var name="method" id="4989694486378804284" />
+        <var name="node" id="4989694486378804284" />
+        <var name="parameters" id="4989694486378804284" />
+      </scope>
+      <unit id="4989694486378804284" at="26,0,95,0" name="Accounting.behavior.InvoiceLine__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:a09e7370-8341-4ea8-adf9-08872211c62b(Accounting.behavior)/4989694486378809388">
+    <file name="Money_Behavior.java">
+      <node id="4989694486378809388" at="14,86,15,78" concept="5" />
+      <node id="4989694486378809388" at="14,0,17,0" concept="7" trace="call_asBigDecimal_4989694486378809391#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <scope id="4989694486378809388" at="14,86,15,78" />
+      <scope id="4989694486378809388" at="14,0,17,0">
+        <var name="__thisNode__" id="4989694486378809388" />
+      </scope>
+      <unit id="4989694486378809388" at="12,0,18,0" name="Accounting.behavior.Money_Behavior" />
+    </file>
+    <file name="Money__BehaviorDescriptor.java">
+      <node id="4989694486378809388" at="26,0,27,0" concept="6" trace="CONCEPT" />
+      <node id="4989694486378809388" at="27,0,28,0" concept="6" trace="REGISTRY" />
+      <node id="4989694486378809388" at="29,0,30,0" concept="6" trace="asBigDecimal_id4kYXbbAlowJ" />
+      <node id="4989694486378809388" at="31,0,32,0" concept="6" trace="BH_METHODS" />
+      <node id="4989694486379057221" at="36,89,37,387" concept="5" />
+      <node id="4989694486378809388" at="40,43,41,20" concept="8" />
+      <node id="4989694486378809388" at="45,114,46,21" concept="1" />
+      <node id="4989694486378809388" at="50,114,51,49" concept="4" />
+      <node id="4989694486378809388" at="52,26,53,56" concept="10" />
+      <node id="4989694486378809388" at="56,13,57,67" concept="5" />
+      <node id="4989694486378809388" at="58,14,59,58" concept="10" />
+      <node id="4989694486378809388" at="64,128,65,49" concept="4" />
+      <node id="4989694486378809388" at="66,26,67,56" concept="10" />
+      <node id="4989694486378809388" at="70,14,71,58" concept="10" />
+      <node id="4989694486378809388" at="77,48,78,22" concept="5" />
+      <node id="4989694486378809388" at="83,40,84,19" concept="5" />
+      <node id="4989694486378809388" at="33,0,35,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4989694486378809388" at="36,0,39,0" concept="7" trace="asBigDecimal_id4kYXbbAlowJ#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/math/BigDecimal;" />
+      <node id="4989694486378809388" at="40,0,43,0" concept="0" trace="Money__BehaviorDescriptor#()V" />
+      <node id="4989694486378809388" at="51,49,54,5" concept="2" />
+      <node id="4989694486378809388" at="65,49,68,5" concept="2" />
+      <node id="4989694486378809388" at="44,0,48,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="4989694486378809388" at="68,5,72,5" concept="9" />
+      <node id="4989694486378809388" at="75,0,80,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="4989694486378809388" at="81,0,86,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4989694486378809388" at="54,5,60,5" concept="9" />
+      <node id="4989694486378809388" at="63,0,74,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="4989694486378809388" at="49,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="4989694486378809388" at="33,63,33,63" />
+      <scope id="4989694486378809393" at="36,89,37,387" />
+      <scope id="4989694486378809388" at="40,43,41,20" />
+      <scope id="4989694486378809388" at="45,114,46,21" />
+      <scope id="4989694486378809388" at="52,26,53,56" />
+      <scope id="4989694486378809388" at="56,13,57,67" />
+      <scope id="4989694486378809388" at="58,14,59,58" />
+      <scope id="4989694486378809388" at="66,26,67,56" />
+      <scope id="4989694486378809388" at="70,14,71,58" />
+      <scope id="4989694486378809388" at="77,48,78,22" />
+      <scope id="4989694486378809388" at="83,40,84,19" />
+      <scope id="4989694486378809388" at="33,0,35,0">
+        <var name="__thisNode__" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="36,0,39,0">
+        <var name="__thisNode__" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="40,0,43,0" />
+      <scope id="4989694486378809388" at="44,0,48,0">
+        <var name="constructor" id="4989694486378809388" />
+        <var name="node" id="4989694486378809388" />
+        <var name="parameters" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="75,0,80,0" />
+      <scope id="4989694486378809388" at="81,0,86,0" />
+      <scope id="4989694486378809388" at="64,128,72,5">
+        <var name="methodIndex" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="50,114,60,5">
+        <var name="methodIndex" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="63,0,74,0">
+        <var name="concept" id="4989694486378809388" />
+        <var name="method" id="4989694486378809388" />
+        <var name="parameters" id="4989694486378809388" />
+      </scope>
+      <scope id="4989694486378809388" at="49,0,62,0">
+        <var name="method" id="4989694486378809388" />
+        <var name="node" id="4989694486378809388" />
+        <var name="parameters" id="4989694486378809388" />
+      </scope>
+      <unit id="4989694486378809388" at="25,0,87,0" name="Accounting.behavior.Money__BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

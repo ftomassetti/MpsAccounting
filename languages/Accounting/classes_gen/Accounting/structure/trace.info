@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="13,0,61,0" name="Accounting.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:bdecaf2a-d38f-4c4b-b38a-65ab481da2c2(Accounting.structure)/4989694486378295441">
+    <file name="Currency.java">
+      <node id="4989694486378295441" at="12,0,13,0" concept="2" trace="myName" />
+      <node id="4989694486378295441" at="13,27,14,18" concept="6" />
+      <node id="4989694486378295441" at="16,0,17,0" concept="2" trace="myValue" />
+      <node id="4989694486378295441" at="17,47,18,18" concept="1" />
+      <node id="4989694486378295441" at="18,18,19,20" concept="1" />
+      <node id="4989694486378295441" at="21,28,22,19" concept="6" />
+      <node id="4989694486378295441" at="24,36,25,19" concept="6" />
+      <node id="4989694486378295441" at="27,47,28,76" concept="5" />
+      <node id="4989694486378295441" at="28,76,29,58" concept="1" />
+      <node id="4989694486378295441" at="29,58,30,16" concept="6" />
+      <node id="4989694486378295441" at="32,39,33,25" concept="6" />
+      <node id="4989694486378295441" at="36,24,37,35" concept="6" />
+      <node id="4989694486378295441" at="39,57,40,27" concept="6" />
+      <node id="4989694486378295441" at="41,5,42,33" concept="6" />
+      <node id="4989694486378295441" at="13,0,16,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="4989694486378295441" at="21,0,24,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="4989694486378295441" at="24,0,27,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="4989694486378295441" at="32,0,35,0" concept="7" trace="getDefault#()LAccounting/structure/Currency;" />
+      <node id="4989694486378295441" at="35,51,38,5" concept="3" />
+      <node id="4989694486378295441" at="38,5,41,5" concept="3" />
+      <node id="4989694486378295441" at="17,0,21,0" concept="0" trace="Currency#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4989694486378295441" at="27,0,32,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="4989694486378295441" at="35,0,44,0" concept="7" trace="parseValue#(Ljava/lang/String;)LAccounting/structure/Currency;" />
+      <scope id="4989694486378295441" at="13,27,14,18" />
+      <scope id="4989694486378295441" at="21,28,22,19" />
+      <scope id="4989694486378295441" at="24,36,25,19" />
+      <scope id="4989694486378295441" at="32,39,33,25" />
+      <scope id="4989694486378295441" at="36,24,37,35" />
+      <scope id="4989694486378295441" at="39,57,40,27" />
+      <scope id="4989694486378295441" at="17,47,19,20" />
+      <scope id="4989694486378295441" at="13,0,16,0" />
+      <scope id="4989694486378295441" at="21,0,24,0" />
+      <scope id="4989694486378295441" at="24,0,27,0" />
+      <scope id="4989694486378295441" at="27,47,30,16">
+        <var name="list" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="32,0,35,0" />
+      <scope id="4989694486378295441" at="17,0,21,0">
+        <var name="name" id="4989694486378295441" />
+        <var name="value" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="27,0,32,0" />
+      <scope id="4989694486378295441" at="35,51,42,33" />
+      <scope id="4989694486378295441" at="35,0,44,0">
+        <var name="value" id="4989694486378295441" />
+      </scope>
+      <unit id="4989694486378295441" at="9,0,45,0" name="Accounting.structure.Currency" />
+    </file>
+    <file name="Currency_PropertySupport.java">
+      <node id="4989694486378295441" at="11,24,12,18" concept="6" />
+      <node id="4989694486378295441" at="13,5,14,93" concept="5" />
+      <node id="4989694486378295441" at="15,33,16,43" concept="5" />
+      <node id="4989694486378295441" at="17,45,18,20" concept="6" />
+      <node id="4989694486378295441" at="20,5,21,17" concept="6" />
+      <node id="4989694486378295441" at="24,24,25,18" concept="6" />
+      <node id="4989694486378295441" at="26,5,27,93" concept="5" />
+      <node id="4989694486378295441" at="28,33,29,43" concept="5" />
+      <node id="4989694486378295441" at="30,45,31,43" concept="6" />
+      <node id="4989694486378295441" at="33,5,34,16" concept="6" />
+      <node id="4989694486378295441" at="36,49,37,51" concept="5" />
+      <node id="4989694486378295441" at="38,27,39,32" concept="6" />
+      <node id="4989694486378295441" at="40,5,41,14" concept="6" />
+      <node id="4989694486378295441" at="10,44,13,5" concept="3" />
+      <node id="4989694486378295441" at="16,43,19,7" concept="3" />
+      <node id="4989694486378295441" at="23,47,26,5" concept="3" />
+      <node id="4989694486378295441" at="29,43,32,7" concept="3" />
+      <node id="4989694486378295441" at="37,51,40,5" concept="3" />
+      <node id="4989694486378295441" at="14,93,20,5" concept="8" />
+      <node id="4989694486378295441" at="27,93,33,5" concept="8" />
+      <node id="4989694486378295441" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4989694486378295441" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4989694486378295441" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="4989694486378295441" at="11,24,12,18" />
+      <scope id="4989694486378295441" at="17,45,18,20" />
+      <scope id="4989694486378295441" at="24,24,25,18" />
+      <scope id="4989694486378295441" at="30,45,31,43" />
+      <scope id="4989694486378295441" at="38,27,39,32" />
+      <scope id="4989694486378295441" at="15,33,19,7">
+        <var name="constant" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="28,33,32,7">
+        <var name="constant" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="36,49,41,14">
+        <var name="constant" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="36,0,43,0">
+        <var name="value" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="10,44,21,17">
+        <var name="constants" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="23,47,34,16">
+        <var name="constants" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="10,0,23,0">
+        <var name="value" id="4989694486378295441" />
+      </scope>
+      <scope id="4989694486378295441" at="23,0,36,0">
+        <var name="value" id="4989694486378295441" />
+      </scope>
+      <unit id="4989694486378295441" at="9,0,44,0" name="Accounting.structure.Currency_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bdecaf2a-d38f-4c4b-b38a-65ab481da2c2(Accounting.structure)/4989694486378366320">
+    <file name="Month.java">
+      <node id="4989694486378366320" at="23,0,24,0" concept="2" trace="myName" />
+      <node id="4989694486378366320" at="24,27,25,18" concept="6" />
+      <node id="4989694486378366320" at="27,0,28,0" concept="2" trace="myValue" />
+      <node id="4989694486378366320" at="28,33,29,18" concept="1" />
+      <node id="4989694486378366320" at="29,18,30,20" concept="1" />
+      <node id="4989694486378366320" at="32,25,33,19" concept="6" />
+      <node id="4989694486378366320" at="35,36,36,37" concept="6" />
+      <node id="4989694486378366320" at="38,44,39,70" concept="5" />
+      <node id="4989694486378366320" at="39,70,40,54" concept="1" />
+      <node id="4989694486378366320" at="40,54,41,54" concept="1" />
+      <node id="4989694486378366320" at="41,54,42,54" concept="1" />
+      <node id="4989694486378366320" at="42,54,43,54" concept="1" />
+      <node id="4989694486378366320" at="43,54,44,54" concept="1" />
+      <node id="4989694486378366320" at="44,54,45,54" concept="1" />
+      <node id="4989694486378366320" at="45,54,46,54" concept="1" />
+      <node id="4989694486378366320" at="46,54,47,54" concept="1" />
+      <node id="4989694486378366320" at="47,54,48,54" concept="1" />
+      <node id="4989694486378366320" at="48,54,49,54" concept="1" />
+      <node id="4989694486378366320" at="49,54,50,54" concept="1" />
+      <node id="4989694486378366320" at="50,54,51,54" concept="1" />
+      <node id="4989694486378366320" at="51,54,52,16" concept="6" />
+      <node id="4989694486378366320" at="54,36,55,21" concept="6" />
+      <node id="4989694486378366320" at="58,24,59,32" concept="6" />
+      <node id="4989694486378366320" at="61,53,62,23" concept="6" />
+      <node id="4989694486378366320" at="64,53,65,23" concept="6" />
+      <node id="4989694486378366320" at="67,53,68,23" concept="6" />
+      <node id="4989694486378366320" at="70,53,71,23" concept="6" />
+      <node id="4989694486378366320" at="73,53,74,23" concept="6" />
+      <node id="4989694486378366320" at="76,53,77,23" concept="6" />
+      <node id="4989694486378366320" at="79,53,80,23" concept="6" />
+      <node id="4989694486378366320" at="82,53,83,23" concept="6" />
+      <node id="4989694486378366320" at="85,53,86,23" concept="6" />
+      <node id="4989694486378366320" at="88,53,89,23" concept="6" />
+      <node id="4989694486378366320" at="91,53,92,23" concept="6" />
+      <node id="4989694486378366320" at="94,53,95,23" concept="6" />
+      <node id="4989694486378366320" at="96,5,97,30" concept="6" />
+      <node id="4989694486378366320" at="24,0,27,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="4989694486378366320" at="32,0,35,0" concept="4" trace="getValue#()I" />
+      <node id="4989694486378366320" at="35,0,38,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="4989694486378366320" at="54,0,57,0" concept="7" trace="getDefault#()LAccounting/structure/Month;" />
+      <node id="4989694486378366320" at="57,48,60,5" concept="3" />
+      <node id="4989694486378366320" at="60,5,63,5" concept="3" />
+      <node id="4989694486378366320" at="63,5,66,5" concept="3" />
+      <node id="4989694486378366320" at="66,5,69,5" concept="3" />
+      <node id="4989694486378366320" at="69,5,72,5" concept="3" />
+      <node id="4989694486378366320" at="72,5,75,5" concept="3" />
+      <node id="4989694486378366320" at="75,5,78,5" concept="3" />
+      <node id="4989694486378366320" at="78,5,81,5" concept="3" />
+      <node id="4989694486378366320" at="81,5,84,5" concept="3" />
+      <node id="4989694486378366320" at="84,5,87,5" concept="3" />
+      <node id="4989694486378366320" at="87,5,90,5" concept="3" />
+      <node id="4989694486378366320" at="90,5,93,5" concept="3" />
+      <node id="4989694486378366320" at="93,5,96,5" concept="3" />
+      <node id="4989694486378366320" at="28,0,32,0" concept="0" trace="Month#(Ljava/lang/String;I)V" />
+      <node id="4989694486378366320" at="38,0,54,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="4989694486378366320" at="57,0,99,0" concept="7" trace="parseValue#(Ljava/lang/String;)LAccounting/structure/Month;" />
+      <scope id="4989694486378366320" at="24,27,25,18" />
+      <scope id="4989694486378366320" at="32,25,33,19" />
+      <scope id="4989694486378366320" at="35,36,36,37" />
+      <scope id="4989694486378366320" at="54,36,55,21" />
+      <scope id="4989694486378366320" at="58,24,59,32" />
+      <scope id="4989694486378366320" at="61,53,62,23" />
+      <scope id="4989694486378366320" at="64,53,65,23" />
+      <scope id="4989694486378366320" at="67,53,68,23" />
+      <scope id="4989694486378366320" at="70,53,71,23" />
+      <scope id="4989694486378366320" at="73,53,74,23" />
+      <scope id="4989694486378366320" at="76,53,77,23" />
+      <scope id="4989694486378366320" at="79,53,80,23" />
+      <scope id="4989694486378366320" at="82,53,83,23" />
+      <scope id="4989694486378366320" at="85,53,86,23" />
+      <scope id="4989694486378366320" at="88,53,89,23" />
+      <scope id="4989694486378366320" at="91,53,92,23" />
+      <scope id="4989694486378366320" at="94,53,95,23" />
+      <scope id="4989694486378366320" at="28,33,30,20" />
+      <scope id="4989694486378366320" at="24,0,27,0" />
+      <scope id="4989694486378366320" at="32,0,35,0" />
+      <scope id="4989694486378366320" at="35,0,38,0" />
+      <scope id="4989694486378366320" at="54,0,57,0" />
+      <scope id="4989694486378366320" at="28,0,32,0">
+        <var name="name" id="4989694486378366320" />
+        <var name="value" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="38,44,52,16">
+        <var name="list" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="38,0,54,0" />
+      <scope id="4989694486378366320" at="57,48,97,30" />
+      <scope id="4989694486378366320" at="57,0,99,0">
+        <var name="value" id="4989694486378366320" />
+      </scope>
+      <unit id="4989694486378366320" at="9,0,100,0" name="Accounting.structure.Month" />
+    </file>
+    <file name="Month_PropertySupport.java">
+      <node id="4989694486378366320" at="11,24,12,18" concept="6" />
+      <node id="4989694486378366320" at="13,5,14,87" concept="5" />
+      <node id="4989694486378366320" at="15,33,16,40" concept="5" />
+      <node id="4989694486378366320" at="17,45,18,20" concept="6" />
+      <node id="4989694486378366320" at="20,5,21,17" concept="6" />
+      <node id="4989694486378366320" at="24,24,25,18" concept="6" />
+      <node id="4989694486378366320" at="26,5,27,87" concept="5" />
+      <node id="4989694486378366320" at="28,33,29,40" concept="5" />
+      <node id="4989694486378366320" at="30,45,31,43" concept="6" />
+      <node id="4989694486378366320" at="33,5,34,16" concept="6" />
+      <node id="4989694486378366320" at="36,49,37,45" concept="5" />
+      <node id="4989694486378366320" at="38,27,39,32" concept="6" />
+      <node id="4989694486378366320" at="40,5,41,14" concept="6" />
+      <node id="4989694486378366320" at="10,44,13,5" concept="3" />
+      <node id="4989694486378366320" at="16,40,19,7" concept="3" />
+      <node id="4989694486378366320" at="23,47,26,5" concept="3" />
+      <node id="4989694486378366320" at="29,40,32,7" concept="3" />
+      <node id="4989694486378366320" at="37,45,40,5" concept="3" />
+      <node id="4989694486378366320" at="14,87,20,5" concept="8" />
+      <node id="4989694486378366320" at="27,87,33,5" concept="8" />
+      <node id="4989694486378366320" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4989694486378366320" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4989694486378366320" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="4989694486378366320" at="11,24,12,18" />
+      <scope id="4989694486378366320" at="17,45,18,20" />
+      <scope id="4989694486378366320" at="24,24,25,18" />
+      <scope id="4989694486378366320" at="30,45,31,43" />
+      <scope id="4989694486378366320" at="38,27,39,32" />
+      <scope id="4989694486378366320" at="15,33,19,7">
+        <var name="constant" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="28,33,32,7">
+        <var name="constant" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="36,49,41,14">
+        <var name="constant" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="36,0,43,0">
+        <var name="value" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="10,44,21,17">
+        <var name="constants" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="23,47,34,16">
+        <var name="constants" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="10,0,23,0">
+        <var name="value" id="4989694486378366320" />
+      </scope>
+      <scope id="4989694486378366320" at="23,0,36,0">
+        <var name="value" id="4989694486378366320" />
+      </scope>
+      <unit id="4989694486378366320" at="9,0,44,0" name="Accounting.structure.Month_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+
