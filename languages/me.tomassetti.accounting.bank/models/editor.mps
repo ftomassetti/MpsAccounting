@@ -4,20 +4,14 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
     <use id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
-    <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
-    <import index="gy9t" ref="r:aa54b9f0-d1d0-4999-9a19-a3c79609a82f(me.tomassetti.accounting.invoicing.editor)" />
+    <import index="cpdw" ref="r:a1a77b74-9bf0-42b6-b313-ce4dceae6e0b(me.tomassetti.accounting.editor)" />
+    <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="54j1" ref="r:e28bca64-7faa-45a7-8008-a1f8432c1f16(me.tomassetti.accounting.bank.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="h3wi" ref="r:5bb40934-9e33-4f62-90ed-a855422cf801(me.tomassetti.accounting.bank.behavior)" implicit="true" />
@@ -348,7 +342,7 @@
                     <node concept="3clFbF" id="27EArotAI0o" role="3cqZAp">
                       <node concept="2ShNRf" id="27EArotAI0m" role="3clFbG">
                         <node concept="1pGfFk" id="27EArotAIXt" role="2ShVmc">
-                          <ref role="37wK5l" to="gy9t:64wrKsYobzq" resolve="HorizontalLineCellProvider" />
+                          <ref role="37wK5l" to="cpdw:64wrKsYobzq" resolve="HorizontalLineCellProvider" />
                           <node concept="pncrf" id="27EArotAJ1A" role="37wK5m" />
                           <node concept="3cmrfG" id="27EArotAJbU" role="37wK5m">
                             <property role="3cmrfH" value="2" />

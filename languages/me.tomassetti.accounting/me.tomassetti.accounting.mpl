@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="me.tomassetti.accounting.bank" uuid="b65d6397-e943-4091-a5fa-a82bc15c0f45" languageVersion="0" moduleVersion="0">
+<language namespace="me.tomassetti.accounting" uuid="f7e2bb91-4743-4dfa-9891-29693936a7ae" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="me.tomassetti.accounting.bank#585384492837925756" uuid="a15c55d3-b44f-48f4-92b5-5b33a03bd45d">
+    <generator generatorUID="me.tomassetti.accounting#585384492838313419" uuid="07c18044-64eb-4efe-9459-a86bb7b6157a">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -31,8 +31,6 @@
         <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" fqName="jetbrains.mps.lang.quotation" version="0" />
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="2" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
-        <language id="f7e2bb91-4743-4dfa-9891-29693936a7ae" fqName="me.tomassetti.accounting" version="0" />
-        <language id="b65d6397-e943-4091-a5fa-a82bc15c0f45" fqName="me.tomassetti.accounting.bank" version="-1" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -43,22 +41,19 @@
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="f7e2bb91-4743-4dfa-9891-29693936a7ae(me.tomassetti.accounting)" version="0" />
-        <module reference="b65d6397-e943-4091-a5fa-a82bc15c0f45(me.tomassetti.accounting.bank)" version="0" />
-        <module reference="a15c55d3-b44f-48f4-92b5-5b33a03bd45d(me.tomassetti.accounting.bank#585384492837925756)" version="0" />
+        <module reference="07c18044-64eb-4efe-9459-a86bb7b6157a(me.tomassetti.accounting#585384492838313419)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">43670ffb-82b1-4a3e-a8bf-6b1dd14ad14d(me.tomassetti.accounting.bank.runtime)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <languageVersions>
-    <language id="7e450f4e-1ac3-41ef-a851-4598161bdb94" fqName="de.slisson.mps.tables" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="4" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" fqName="jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -91,11 +86,9 @@
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="f7e2bb91-4743-4dfa-9891-29693936a7ae(me.tomassetti.accounting)" version="0" />
-    <module reference="b65d6397-e943-4091-a5fa-a82bc15c0f45(me.tomassetti.accounting.bank)" version="0" />
-    <module reference="43670ffb-82b1-4a3e-a8bf-6b1dd14ad14d(me.tomassetti.accounting.bank.runtime)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>f7e2bb91-4743-4dfa-9891-29693936a7ae(me.tomassetti.accounting)</extendedLanguage>
+    <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
   </extendedLanguages>
 </language>
 
