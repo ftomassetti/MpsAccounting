@@ -2,9 +2,12 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/Accounting/Accounting.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/Accounting/runtime/Accounting.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Accounting/me.tomassetti.accounting.invoicing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Accounting/runtime/me.tomassetti.accounting.invoicing.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Accounting/sandbox/Accounting.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/me.tomassetti.accounting.bank/me.tomassetti.accounting.bank.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/me.tomassetti.accounting/me.tomassetti.accounting.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/me.tomassetti.accounting.bank.runtime/me.tomassetti.accounting.bank.runtime.msd" folder="" />
     </projectModules>
   </component>
 </project>

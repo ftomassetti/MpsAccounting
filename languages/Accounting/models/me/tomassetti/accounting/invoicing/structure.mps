@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bdecaf2a-d38f-4c4b-b38a-65ab481da2c2(Accounting.structure)">
+<model ref="r:bdecaf2a-d38f-4c4b-b38a-65ab481da2c2(me.tomassetti.accounting.invoicing.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="m5to" ref="r:066e1af6-07db-411e-82df-b3bc203180a8(me.tomassetti.accounting.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
-        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
-        <child id="1083172003582" name="member" index="M5hS2" />
-      </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
-        <property id="1083923523172" name="externalValue" index="1uS6qo" />
-        <property id="1083923523171" name="internalValue" index="1uS6qv" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -72,7 +65,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="emittedOn" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4kYXbbAjGlt" resolve="Date" />
+      <ref role="20lvS9" to="m5to:4kYXbbAjGlt" resolve="Date" />
     </node>
     <node concept="1TJgyj" id="4kYXbbAjI3k" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -132,7 +125,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="amount" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4kYXbbAjr2g" resolve="Money" />
+      <ref role="20lvS9" to="m5to:4kYXbbAjr2g" resolve="Money" />
     </node>
     <node concept="1TJgyj" id="4kYXbbAjK28" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -143,31 +136,6 @@
     <node concept="1TJgyi" id="4kYXbbAjr2b" role="1TKVEl">
       <property role="TrG5h" value="description" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4kYXbbAjr2g">
-    <property role="1pbfSe" value="730637634" />
-    <property role="TrG5h" value="Money" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4kYXbbAjr2j" role="1TKVEl">
-      <property role="TrG5h" value="integerPart" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4kYXbbAjr2l" role="1TKVEl">
-      <property role="TrG5h" value="decimalPart" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4kYXbbAjr2w" role="1TKVEl">
-      <property role="TrG5h" value="currency" />
-      <ref role="AX2Wp" node="4kYXbbAjr2h" resolve="Currency" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="4kYXbbAjr2h">
-    <property role="TrG5h" value="Currency" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="4kYXbbAjr2i" role="M5hS2">
-      <property role="1uS6qv" value="EURO" />
-      <property role="1uS6qo" value="EURO" />
     </node>
   </node>
   <node concept="1TIwiD" id="4kYXbbAjr7K">
@@ -205,74 +173,10 @@
       <ref role="20lvS9" node="4kYXbbAjr0U" resolve="VATIdentifier" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4kYXbbAjGlt">
-    <property role="1pbfSe" value="730708495" />
-    <property role="TrG5h" value="Date" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4kYXbbAjGlw" role="1TKVEl">
-      <property role="TrG5h" value="day" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4kYXbbAjGlu" role="1TKVEl">
-      <property role="TrG5h" value="month" />
-      <ref role="AX2Wp" node="4kYXbbAjGlK" resolve="Month" />
-    </node>
-    <node concept="1TJgyi" id="4kYXbbAjGlC" role="1TKVEl">
-      <property role="TrG5h" value="year" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="4kYXbbAjGlK">
-    <property role="TrG5h" value="Month" />
-    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
-    <node concept="M4N5e" id="4kYXbbAjGlL" role="M5hS2">
-      <property role="1uS6qo" value="JAN" />
-      <property role="1uS6qv" value="1" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGlM" role="M5hS2">
-      <property role="1uS6qo" value="FEB" />
-      <property role="1uS6qv" value="2" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGlP" role="M5hS2">
-      <property role="1uS6qo" value="MAR" />
-      <property role="1uS6qv" value="3" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGlT" role="M5hS2">
-      <property role="1uS6qo" value="APR" />
-      <property role="1uS6qv" value="4" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGlY" role="M5hS2">
-      <property role="1uS6qo" value="MAY" />
-      <property role="1uS6qv" value="5" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGm4" role="M5hS2">
-      <property role="1uS6qo" value="JUN" />
-      <property role="1uS6qv" value="6" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGmb" role="M5hS2">
-      <property role="1uS6qo" value="JUL" />
-      <property role="1uS6qv" value="7" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGmj" role="M5hS2">
-      <property role="1uS6qo" value="AUG" />
-      <property role="1uS6qv" value="8" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGms" role="M5hS2">
-      <property role="1uS6qo" value="SEP" />
-      <property role="1uS6qv" value="9" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGmA" role="M5hS2">
-      <property role="1uS6qo" value="OCT" />
-      <property role="1uS6qv" value="10" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGmL" role="M5hS2">
-      <property role="1uS6qo" value="NOV" />
-      <property role="1uS6qv" value="11" />
-    </node>
-    <node concept="M4N5e" id="4kYXbbAjGmX" role="M5hS2">
-      <property role="1uS6qo" value="DEC" />
-      <property role="1uS6qv" value="12" />
-    </node>
+  <node concept="1TIwiD" id="7eWcHvJy9Xn">
+    <property role="1pbfSe" value="1665454638" />
+    <property role="TrG5h" value="Person" />
+    <ref role="1TJDcQ" node="4kYXbbAjr0R" resolve="Entity" />
   </node>
 </model>
 

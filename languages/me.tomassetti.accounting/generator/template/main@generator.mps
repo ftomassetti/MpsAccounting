@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b92f1f01-c923-4b28-9053-bb886c622ec7(me.tomassetti.accounting.invoicing.generator.template.main@generator)">
+<model ref="r:398f1caa-e57a-433f-a453-b7967dfcc9ab(me.tomassetti.accounting.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
-    <use id="3511d2b0-c9d7-4a02-a20b-ca10f21445c3" name="Accounting" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -19,7 +18,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="4kYXbbAjr0E">
+  <node concept="bUwia" id="wvH1x0D_Rc">
     <property role="TrG5h" value="main" />
   </node>
 </model>

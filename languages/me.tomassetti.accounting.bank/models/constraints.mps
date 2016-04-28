@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bb0aaf47-67c2-490b-aff3-cee307196e92(Accounting.constraints)">
+<model ref="r:9ecbd370-c69f-4957-86d3-32d0d761ee0c(me.tomassetti.accounting.bank.constraints)">
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
