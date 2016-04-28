@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:10fca29b-83e6-4d26-b540-512c0818d770(Accounting.typesystem)">
+<model ref="r:10fca29b-83e6-4d26-b540-512c0818d770(me.tomassetti.accounting.invoicing.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
